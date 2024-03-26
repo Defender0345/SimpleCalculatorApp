@@ -183,7 +183,7 @@ namespace SimpleCalculatorApp
         {
             double Number2;
             double Results;
-
+            // Add input validation
             Number2 = Convert.ToDouble(textBox1.Text);
 
                 if (Operation == "+")
